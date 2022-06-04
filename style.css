@@ -7,6 +7,26 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+    font-size: 16px;
+}
+
+a {
+    color: white;
+}
+
+.padding-footer {
+    padding: 2rem
+}
+.padding-network {
+    padding-bottom: 2rem;
+}
+
+/* .fa {
+    color: #FFFFFF !important;
+
+} */
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -647,8 +667,8 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn
+ {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -676,9 +696,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -703,6 +720,7 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+
 
 h2 {
     font-size: 22px;
@@ -753,7 +771,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(142, 67, 0, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -765,26 +783,29 @@ h4 {
 .bgc-white {
     background-color: #FFFFFF;
 }
+h2 {
+    color: white!important;
+}
 
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #8E4300;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #8E4325!important;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #8E2100!important;
     color: #FFFFFF!important;
 }
 
