@@ -7,6 +7,23 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.citation {
+    color: #575757!important;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+.citation2 {
+    color: #575757!important;
+    font-weight: 600;
+}
+.citation2p {
+    color: #8E4300!important;
+    font-size: 1.7rem;
+}
+.ptext {
+    color: #8E4300!important;
+}
+
 p {
     font-size: 16px;
 }
@@ -351,10 +368,15 @@ a:hover {
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
+.nav > li a {
+    color: #8E4300!important;
+}
 
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    color: black!important;
+
 }
 
 .navbar-toggle {
@@ -720,7 +742,6 @@ label,
     max-width: 400px;
     margin: auto auto auto auto;
 }
-
 
 h2 {
     font-size: 22px;
